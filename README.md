@@ -536,7 +536,7 @@ Path where red and black nodes alternate
 
 Length of the shortest possible path from x to a leaf = bh(x) (path that only contains black node)
 
-![Red Black 7](img/redblack7.PNG)
+![Red Black 7](img/redblack7.png)
 
 Here N = 14, n = 7, Height = 5
 * Max Height = 2(log<sub>2</sub>8) = 6
@@ -602,10 +602,10 @@ Children of now red node G : d and former right child of P, e.i. C
 Going to work through som examples to get a better understanding of this section:
 
 Insert 3
-![Case 1](img/redblack12.png)
+![Case 1](img/redblack12.PNG)
 
 1 Rotation and re colouring result:
-![Case 1 solved](img/redblack13.png)
+![Case 1 solved](img/redblack13.PNG)
 
 #### Fixing the Neighbourhood of a leaf
 * Case 1: P is left child of G, and X is left child of P (X is "outside of grand-child" of G) - example shown
@@ -616,7 +616,7 @@ Insert 3
 ##### Case 2
 Insertion of X can be fixed with 2 rotations between X, P and G, and re-colouring of X and G
 
-![Case 2](img/redblack14.png)
+![Case 2](img/redblack14.PNG)
 
 Before the rotations and restructuring X was red, its parent P was also red <-problem
 P was red, parent G must have been black
@@ -626,7 +626,7 @@ After the rotations X is black, G is red but its parent is black children of G a
 
 Another Case 2 Example:
 
-![Case 2 Beginning](img/redblack15.png)
+![Case 2 Beginning](img/redblack15.PNG)
 
 Solution
 
@@ -658,13 +658,13 @@ Here are further examples of this algorithm in action:
 Insert 45 into the following RB tree:
 ![rb 17](img/redblack17.png)
 Here the issue is that 50 has 2 red children. So we need to change that Change 50 to red, and its children to black. Now 50 is red, and has a red parent. Apply case 1
-![rb 18](img/redblack18.png)
+![rb 18](img/redblack18.PNG)
 
 So we do a tri node operation and re-colour.
-![rb 20](img/redblack20.png)
+![rb 20](img/redblack20.PNG)
 
 Then key 45 is inserted to the right child of 40, and it is fine because the leaf's parent is black so there is nothing more to do.
-![rb 21](img/redblack21.png)
+![rb 21](img/redblack21.PNG)
 
 There are some more examples [here](docs/RedBlackTrees.pdf).
 ### Binary Heaps
@@ -677,7 +677,7 @@ A heap is not a sorted structure and cab be regarded as partially ordered. A hea
 #### Insertion
 When a new element is added it is appended to the end of the heap. The heap property is repaired by percolating the element up to where it is supposed to be
 
-![Percolation](img/binaryHeap.png)
+![Percolation](img/binaryHeap.PNG)
 
 Here is code to describe the f0llowing:
 ```java
