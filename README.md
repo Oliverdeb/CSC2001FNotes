@@ -703,7 +703,7 @@ Deletion time is O(logn)
 
 #### Heapsort
 This algorithm runs in two steps, given an array of data we build a heap and then turn it into a sorted list by calling delete in. The runtime of the algorithm is O(nlogn)
-![Heapsort](img/binaryHeap1.png)
+![Heapsort](img/binaryHeap1.PNG)
 ## Graphs
 Is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points, termed as vertices, and the links that connect the vertices are called edges.
 
@@ -723,7 +723,7 @@ There are different types of graphs:
 A directed graph is one which the edge pair is ordered.
 
 An undirected graph, an edge (v,w) will imply (w,v)
-![Direct v Undirect](img\graph1.png)
+![Direct v Undirect](img/graph1.PNG)
 
 - Vertex w is adjacent to vertex v if there is an edge from v to w.
 - An edge cost (weight) measures the cost of traversing the edge
@@ -752,7 +752,7 @@ An undirected graph, an edge (v,w) will imply (w,v)
 - Adjacency Matrix for undirected graph is always symmetric i.e. edge(u,v) implies the edge(v,u);
 - Nonexistant edges can be initialised to infinity or 0
 
-![Adjacency Matrix](img/graph2.png)
+![Adjacency Matrix](img/graph2.PNG)
 
 * Simple and easy to follow, easy to work with.
 * However:
@@ -785,13 +785,13 @@ Here is an exercise to show the visual representation of data, with the adjacenc
 
 The initial values:
 
-![Method 2 Init](img\graph4.png)
+![Method 2 Init](img/graph4.png)
 
 Here is the adjacency matrix
-![Adjcacency Matrix](img\graph5.png)
+![Adjcacency Matrix](img/graph5.png)
 
 Here is the adjacency list
-![Adjacency List](img\graph6.png)
+![Adjacency List](img/graph6.png)
 
 ### Methods for Searching a Graph
 Algorithms for traversing a graph; two methods that are really prevalent.
@@ -827,13 +827,13 @@ BFS(s, Adj):
 
 Illustration of this:
 
-![graph 7](img/graph7.png)
+![graph 7](img/graph7.PNG)
 
 BFS guarantees shortest path discovery in a connected graph. If a node is not reachable when a BFS algorithm is run, then it returns infinity.
 The shortest path distance (unweighted path length) from S to V is the minimum number of edges in any path from S to V.
 Shortest path aglorithms are single source algorithms that computer the shortest paths from starting point to all vertices
 
-![graph 8](img/graph8.png)
+![graph 8](img/graph8.PNG)
 
 Full walkthroughs of the above examples are [here](docs/BFS.pdf)
 #### Depth First Search DFS
