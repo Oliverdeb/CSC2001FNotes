@@ -416,7 +416,7 @@ In order to understand the algorithm here is an example with *minimum degree * t
 
 Initially the root is NULL so insert 10
 
-![Simple B-Tree insert https://www.geeksforgeeks.org/wp-content/uploads/Btree1-300x69.png](img/BTreeIn1.png)
+![Simple B-Tree insert https://www.geeksforgeeks.org/wp-content/uploads/Btree1-300x69.png](img/BtreeIn1.png)
 
 Let us insert 20, 30, 40, 50. They will be insert in root because max number a node can have is 2*t-1 which, in this case is 5.
 
